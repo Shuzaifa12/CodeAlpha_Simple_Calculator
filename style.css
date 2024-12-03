@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(138, 136, 5, 0.208);
+}
+.title{
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    background: linear-gradient(to right, rgb(97, 6, 77), rgb(245, 0, 216));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.title span{
+    background: linear-gradient(to right, rgb(10, 58, 107), rgb(131, 58, 141));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+form{
+    border: 2px solid rgb(0, 0, 0);
+    width: 275px;
+    height: 400px;
+    margin: auto;
+    align-content: center;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgb(142, 142, 142), 5px 5px 15px rgb(157, 28, 28)
+}
+
+form .div1 input{
+    width: 100%;
+    display: flex;
+    margin: 10px 0px;
+    padding: 8px;
+    height: 100px;
+    text-align: end;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+form .div2, .div3, .div4, .div5, .div6{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+form .div2 input, .div3 input, .div4 input, .div5 input, .div6 input{
+    width: 50px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+form .div2 input:hover, .div3 input:hover, .div4 input:hover, .div5 input:hover, .div6 input:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+}
